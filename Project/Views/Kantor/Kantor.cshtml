@@ -1,0 +1,22 @@
+﻿<script defer type="text/javascript" src="~/js/KantorJSFile.js"></script>
+<link rel="stylesheet" href="~/css/KantorCSSFile.css" />
+
+@{
+    ViewData["Title"] = "Kantor";
+}
+    <br/>
+    <h1 class="center-text">Kantor</h1>
+    <div class="container">
+        <input type="number" id="value" />
+        <select name="from" id="from">
+            <option value="PLN">PLN</option>
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+        </select><br/><br />
+        <input type="number" disabled id="result"/>
+        <select name="to" id="to">
+            <option value="PLN">PLN</option>
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+        </select>
+    </div>

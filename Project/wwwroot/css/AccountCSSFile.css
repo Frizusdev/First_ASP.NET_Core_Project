@@ -1,0 +1,50 @@
+﻿body {
+}
+
+.box {
+    position: relative;
+    left: 30vw;
+    top: 15vh;
+    max-width: 30vw;
+    max-height: 50vw;
+    background-color: white;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+#log, #rej {
+    font-size: 28px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.choose {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logowanie {
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.rejestracja {
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}

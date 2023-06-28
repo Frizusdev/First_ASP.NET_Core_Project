@@ -1,0 +1,40 @@
+﻿@model List<Item>
+@{
+    var colorGroup = Model.GroupBy(x => x.Item_Color);
+    var sizeGroup = Model.GroupBy(x => x.Item_Sizes);
+}
+
+<link rel="stylesheet" href="../css/OpenItemCSSFile.css" />
+<script defer src="../js/OpenItemJSFile.js"></script>
+
+<div class="box">
+
+    <div class="galery">
+    <img src="~/Images/@Model.First().Item_Image" />
+    </div>
+
+    <div class="description">
+    <p>@Model.First().Item_Name</p>
+
+    <p>@Model.First().Item_Description</p>
+    <br />
+    <span>Rozmiar : </span>
+    <ul>
+        @foreach (var size in sizeGroup)
+        {
+            <li class="color" id="sizeFilter"><span>@size.First().Item_Sizes</span> <input type="checkbox" /> </li>
+        }
+    </ul>
+    <span>Kolor : </span>
+    <ul>
+        @foreach (var color in colorGroup)
+        {
+            <li class="color" id="colorFilter" style="background-color: @color.First().Item_Color;"><input type="checkbox" style="background: @color.First().Item_Color;" /></li>
+        }
+    </ul>
+        <span>Ilość: </span>
+        <input type="number"min="1" max="99" value="1"/>
+        <button type="submit" id="buy" class="btn btn-primary">Dodaj do koszyka</button>
+    </div>
+</div>
+

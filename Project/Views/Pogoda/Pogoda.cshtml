@@ -1,0 +1,120 @@
+﻿<script defer type="text/javascript" src="~/js/PogodaJSFile.js"></script>
+<link rel="stylesheet" href="~/css/PogodaCSSFile.css" />
+@model Project.Models.ApiResponseCoords.Root;
+@{
+    var visibility = Model.list[0].visibility / 100;
+    var count = 0;
+    double result;
+    int value = 0;
+}
+
+    <div id="main-container" class="main-container">
+        <br />
+        <br />
+        <div class="search-box">
+            <input type="text" class="input-search" id="input_city" placeholder="Type to Search..." />
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="middle-bar">
+            @{var url = Model.list[0].weather[0].icon + "@4x.png"; }
+            <h2 class="text-center">@Model.city.name, <span>@Model.city.country</span></h2>
+            <img class="icon" src="https://openweathermap.org/img/wn/@url">
+            @{double.TryParse(Model.list[0].main.temp.ToString(), out result);
+                value = (int)result;}
+            <h1>@value ºC</h1>
+            <p>@Model.list[0].weather[0].description</p>
+        </div>
+        <div class="low-bar">
+            <div>
+                <img class="icons-low" src="~/Images/humidity.png" />
+                <p>Wilgotność:</p>
+                <p>@Model.list[0].main.humidity %</p>
+            </div>
+            <div class="humidity">
+                <img class="icons-low" src="~/Images/pressure.png" />
+                <p>Ciśnienie:</p>
+                <p>@Model.list[0].main.pressure hPa</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="second-container" class="second-container hide">
+        <div class="hour-view">
+            <p class="text-center">Godzinowa:</p>
+            <ul class="ul-hours">
+                @foreach (var x in Model.list)
+                    {
+                        var str = x.dt_txt.ToString();
+                        str = str.Substring(10);
+                        str = str.Substring(0, str.Length - 6);
+                        double.TryParse(x.main.temp.ToString(), out result);
+                        value = (int)result;
+                        var urlsmall = x.weather[0].icon + ".png";
+
+                    <li class="li-hours">
+                        <span>@str</span><br />
+                        <img class="icon" src="https://openweathermap.org/img/wn/@urlsmall"><br />
+                        <span>@x.weather[0].description</span><br />
+                        <span>@value ºC</span>
+                    </li>
+
+                        if ( count != 8) { count++; }
+                        else { count = 0; break; }
+                    }
+            </ul>
+        </div>
+        <div class="daily-view">
+            <p class="text-center">Dniowa:</p>
+            <ul class="daily-ul">
+                @foreach (var x in Model.list)
+                    {
+                        var day = x.dt_txt.ToString();
+                        day = day.Substring(8);
+                        day = day.Substring(0, day.Length - 8);
+                        var time = x.dt_txt.ToString();
+                        time = time.Substring(10);
+                        time = time.Substring(0, time.Length - 6);
+                        var urlsmall = x.weather[0].icon + ".png";
+                        if (count == 0 || time == "00" || time == " 15")
+                        {
+                            count = 1;
+                        <li class="daily-li">
+                            <span>@day</span><br/>
+                            <span>@{ double.TryParse(x.main.temp_max.ToString(), out result); value = (int)result; }@value ºC</span><br/>
+                            <img class="icon" src="https://openweathermap.org/img/wn/@urlsmall"><br />
+                            <span>@{ double.TryParse(x.main.temp_min.ToString(), out result); value = (int)result; }@value ºC</span>
+                        </li>
+                        }
+                    }
+            </ul>
+        </div>
+        <div class="bottom-dashboard">
+            <p>Zaawansowane:</p>
+            <div class="temp-feel">
+                <p>Temperatura <br /> odczuwalna:</p>
+                <p>@{ double.TryParse(Model.list[0].main.feels_like.ToString(), out result); value = (int)result; }@value ºC</p>
+            </div>
+            <div class="visibility">
+                <p>Widoczność:</p>
+                <p>@visibility km</p>
+            </div>
+            <div class="clouds">
+                <p>Chmury:</p>
+                <p>@Model.list[0].clouds.all %</p>
+            </div>
+            <div>
+                <p>Wilgotność:</p>
+                <p>@Model.list[0].main.humidity %</p>
+            </div>
+            <div class="humidity">
+                <p>Ciśnienie:</p>
+                <p>@Model.list[0].main.pressure hPa</p>
+            </div>
+            <div class="wind_speed">
+                <p>Prędkość <br /> Wiatru:</p>
+                <p>@Model.list[0].wind.speed km/h</p>
+            </div>
+        </div>
+    </div>

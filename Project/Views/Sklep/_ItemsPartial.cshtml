@@ -1,0 +1,24 @@
+﻿
+
+@model List<Item>
+@{
+    var itemGroup = Model.GroupBy(x => x.Item_Name);
+}
+
+@foreach (var b in itemGroup)
+{
+        <div class="items" id="podstrona">
+            <img src="~/Images/@b.First().Item_Image" class="bluza" />
+            <p id="name">@b.First().Item_Name</p>
+            <p>@Math.Round(b.First().Item_Price,2)</p>
+            <ul class="showcolors">
+                @foreach (var x in b.GroupBy(x => x.Item_Color))
+                {
+                 @if (x.First().Item_Quantity > 0)
+                    {
+                        <li class="color" style="background-color: @x.First().Item_Color;"></li>
+                    }
+                 }
+            </ul>
+        </div>
+}

@@ -1,0 +1,157 @@
+﻿footer {
+    position: fixed;
+    bottom: 0;
+    width: auto;
+    height: 40px;
+}
+
+.navigation{
+    opacity: 70%;
+}
+
+span, p{
+    color: rgb(219, 215, 215);
+}
+
+img {
+    height: 20vh;
+    width: 10vw;
+    justify-content: center;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    margin: 0px;
+    background-image: url('../Images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: scroll;
+}
+
+#scoreboard {
+    font-size: 5vh;
+}
+
+span {
+    font-size: 5vh;
+}
+
+.Row {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 8vh;
+    text-align: center;
+    align-items: center;
+}
+
+.Column {
+    display: table-cell;
+}
+
+#fightbtn {
+    width: 16vw;
+    height: 7vh;
+    font-size: 5vh;
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+}
+
+.result {
+    position: absolute;
+    float: left;
+    width: 33%;
+    text-align: center;
+    visibility: hidden;
+}
+
+.combobox {
+    position: absolute;
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+#playerchoice{
+    cursor: pointer;
+}
+
+#change {
+    position: relative;
+    bottom: 25vh;
+    max-height: 0px;
+    display: none;
+    visibility: hidden;
+
+}
+.changerockimg {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2vh;
+    border-block-color: red;
+    cursor: pointer;
+}
+.changepaperimg {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2vh;
+    border-block-color: yellow;
+    cursor: pointer;
+}
+.changescissorsimg {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2vh;
+    border-block-color: blue;
+    cursor: pointer;
+}
+
+#checkbox {
+    width: 8vw;
+    height: 8vh;
+}
+.changebotrockimg {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2vh;
+    border-block-color: red;
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.changebotpaperimg {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2vh;
+    border-block-color: yellow;
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.changebotscissorsimg {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2vh;
+    border-block-color: blue;
+    cursor: pointer;
+    transform: rotateY(180deg);
+}

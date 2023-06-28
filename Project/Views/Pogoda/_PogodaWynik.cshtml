@@ -1,0 +1,39 @@
+﻿<span>Wynik: </span>
+
+<div>
+    <h2>Weather Forecast</h2>
+    <table>
+        <tr>
+            <td>
+                <strong>City: </strong>
+                <span>@ViewBag.City</span>
+                <span>@ViewBag.Country</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Latitude: </strong>
+                <label>@ViewBag.Lat</label><br />
+                <strong>Longitude: </strong>
+                <label>@ViewBag.Lon</label>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Description:</strong>
+                <label>@ViewBag.Description</label><br />
+                <strong>Humidity:</strong>
+                <label>@ViewBag.Humidity</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Temperature (Feels Like)<label">@ViewBag.TempFeelsLike</label><br />
+                    Temperature <label>@ViewBag.Temp</label><br />
+                    Temperature (Min)<label >@ViewBag.TempMin</label><br />
+                    Temperature (Max)<label>@ViewBag.TempMax</label><br />
+            </td>
+        </tr>
+    </table>
+</div>

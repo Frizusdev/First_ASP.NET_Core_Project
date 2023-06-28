@@ -1,0 +1,34 @@
+﻿<script defer type="text/javascript" src="~/js/PogodaJSFile.js"></script>
+<link rel="stylesheet" href="~/css/PogodaCSSFile.css" />
+@model Project.Models.WeatherApiResponse.Root;
+
+<div class="main-container">
+    <br />
+    <div class="search-box">
+        <!--<img class="search" onclick="hover_input();" src="~/Images/add.png" />-->
+        <input type="text" class="input-search" id="input_city" placeholder="Type to Search..." />
+    </div>
+    <br />
+    <br />
+    <div class="middle-bar">
+        @{var url = Model.weather[0].icon + "@4x.png"; }
+        <h2 class="text-center">@Model.name, <span>@Model.sys.country</span></h2>
+        <img class="icon" src="https://openweathermap.org/img/wn/@url">
+        <h1>@Model.main.temp  ºC</h1>
+        <p>@Model.weather[0].description</p>
+    </div>
+    <div class="low-bar">
+        <div>
+            <img class="icons-low" src="~/Images/humidity.png" />
+            <p>Wilgotność:</p>
+            <p>@Model.main.humidity %</p>
+        </div>
+        <div class="humidity">
+            <img class="icons-low" src="~/Images/pressure.png" />
+            <p>Ciśnienie:</p>
+            <p>@Model.main.pressure hPa</p>
+        </div>
+    </div>
+</div>
+
+

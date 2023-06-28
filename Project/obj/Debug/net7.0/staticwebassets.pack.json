@@ -1,0 +1,393 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/obj/Debug/net7.0/scopedcss/projectbundle/Project.bundle.scp.css",
+      "PackagePath": "staticwebassets/Project.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/Images/.DS_Store",
+      "PackagePath": "staticwebassets/Images/.DS_Store"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/Images/T-Shirt.png",
+      "PackagePath": "staticwebassets/Images/T-Shirt.png"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/Images/add.png",
+      "PackagePath": "staticwebassets/Images/add.png"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/Images/background.jpg",
+      "PackagePath": "staticwebassets/Images/background.jpg"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/Images/baner.png",
+      "PackagePath": "staticwebassets/Images/baner.png"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/Images/bluza.png",
+      "PackagePath": "staticwebassets/Images/bluza.png"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/Images/close.png",
+      "PackagePath": "staticwebassets/Images/close.png"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/Images/currencybg.jpg",
+      "PackagePath": "staticwebassets/Images/currencybg.jpg"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/Images/humidity.png",
+      "PackagePath": "staticwebassets/Images/humidity.png"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/Images/logo.jpg",
+      "PackagePath": "staticwebassets/Images/logo.jpg"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/Images/longsleeve.png",
+      "PackagePath": "staticwebassets/Images/longsleeve.png"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/Images/papergif.gif",
+      "PackagePath": "staticwebassets/Images/papergif.gif"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/Images/pressure.png",
+      "PackagePath": "staticwebassets/Images/pressure.png"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/Images/rockbg.jpg",
+      "PackagePath": "staticwebassets/Images/rockbg.jpg"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/Images/rockgif.gif",
+      "PackagePath": "staticwebassets/Images/rockgif.gif"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/Images/scissorsgif.gif",
+      "PackagePath": "staticwebassets/Images/scissorsgif.gif"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/Images/search.gif",
+      "PackagePath": "staticwebassets/Images/search.gif"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/Images/swords.png",
+      "PackagePath": "staticwebassets/Images/swords.png"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/Images/weatherbg.jpg",
+      "PackagePath": "staticwebassets/Images/weatherbg.jpg"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/css/AccountCSSFile.css",
+      "PackagePath": "staticwebassets/css/AccountCSSFile.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/css/KantorCSSFile.css",
+      "PackagePath": "staticwebassets/css/KantorCSSFile.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/css/OpenItemCSSFile.css",
+      "PackagePath": "staticwebassets/css/OpenItemCSSFile.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/css/PogodaCSSFile.css",
+      "PackagePath": "staticwebassets/css/PogodaCSSFile.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/css/SklepGlownaCSSFile.css",
+      "PackagePath": "staticwebassets/css/SklepGlownaCSSFile.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/css/kamienpapierCSSFile.css",
+      "PackagePath": "staticwebassets/css/kamienpapierCSSFile.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/js/AccountJSFile.js",
+      "PackagePath": "staticwebassets/js/AccountJSFile.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/js/KantorJSFile.js",
+      "PackagePath": "staticwebassets/js/KantorJSFile.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/js/LayoutJSFile.js",
+      "PackagePath": "staticwebassets/js/LayoutJSFile.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/js/OpenItemJSFile.js",
+      "PackagePath": "staticwebassets/js/OpenItemJSFile.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/js/PogodaJSFile.js",
+      "PackagePath": "staticwebassets/js/PogodaJSFile.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/js/SklepGlownaJSFile.js",
+      "PackagePath": "staticwebassets/js/SklepGlownaJSFile.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/js/kamienpapierJSFile.js",
+      "PackagePath": "staticwebassets/js/kamienpapierJSFile.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/blazej/Projects/Project/Project/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.Project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.Project.props",
+      "PackagePath": "build\\Project.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Project.props",
+      "PackagePath": "buildMultiTargeting\\Project.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Project.props",
+      "PackagePath": "buildTransitive\\Project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

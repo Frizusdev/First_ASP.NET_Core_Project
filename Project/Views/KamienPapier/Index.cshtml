@@ -1,0 +1,42 @@
+﻿<link rel="stylesheet" href="../css/kamienpapierCSSFile.css" />
+<script defer src="../js/kamienpapierJSFile.js"></script>
+
+<div>
+    <div id="scoreboard" class="text-center">
+        <p>Score Board:</p>
+        <span id="playerscore">0</span>
+        <span> - </span>
+        <span id="botscore">0</span><br />
+    </div>
+
+    <span id="win" class="result">You Won</span>
+    <span id="lose" class="result">You Lost</span>
+    <span id="tie" class="result">Tie</span>
+
+    <div class="Row">
+        <div id="playerchoice" class="Column">
+            <span id="yourchoice" class="text-center">Your Choice</span><br />
+            <img id="playerimg" class="changerockimg" src="~/Images/rockgif.gif" onclick="change();" />
+            <div id="change">
+                <img id="changerockimg" class="changerockimg" src="~/Images/rockgif.gif" onclick="rockchange();" />
+                <img id="changepaperimg" class="changepaperimg" src="~/Images/papergif.gif" onclick="paperchange();" />
+                <img id="changescissorsimg" class="changescissorsimg" src="~/Images/scissorsgif.gif" onclick="scissorschange();" />
+            </div>
+        </div>
+        <div id="swords" class="Column">
+            <span class="text-center">Fight !</span><br />
+            <img class="swordimg" src="~/Images/swords.png" />
+        </div>
+        <div id="botchoice" class="Column">
+            <span class="text-center">Bot Choice</span><br />
+            <img id="botimg" class="changebotrockimg" src="~/Images/rockgif.gif" />
+        </div>
+    </div>
+    <br />
+    <br />
+    <div class="text-center">
+        <button id="fightbtn" onclick="fight();">Fight</button>
+            <span>Auto reRoll:</span>
+            <input type="checkbox" id="checkbox" onchange="auto();" />
+    </div>
+</div>

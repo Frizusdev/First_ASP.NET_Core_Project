@@ -1,0 +1,151 @@
+﻿body {
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    margin: 0px;
+    background-image: url('../Images/weatherbg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.navigation {
+    opacity: 70%;
+}
+
+.main-container {
+    width: 35vw;
+    height: auto;
+    position: fixed;
+    left: 33.3vw;
+    top: 15vh;
+    background-color: white;
+    border-radius: 10%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.search-box{
+    opacity:100%;
+}
+
+.input-search {
+    float: right;
+    min-height: 0px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 1vw;
+    border-radius: 10%;
+    font-size: 2vh;
+}
+
+.search {
+    width: 1vw;
+    height: 3vh;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+}
+
+.middle-bar{
+    opacity: 100%;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+.low-bar{
+    opacity: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons-low {
+    width: 3vw;
+    height: 5vh;
+}
+
+.hide {
+    display: none;
+    min-height: 0px;
+}
+
+.second-container {
+    width: 35vw;
+    height: auto;
+    position: fixed;
+    left: 33.3vw;
+    top: 10vh;
+    background-color: white;
+    border-radius: 10%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.stop-scroll {
+    overflow: hidden;
+}
+/* Hour View*/
+
+.hour-view {
+    display: inline;
+    white-space: nowrap;
+    padding: 0;
+    margin: 0;
+}
+
+.ul-hours {
+    max-width: 100vh;
+    overflow-x: auto;
+    max-height: 20vh;
+}
+
+.li-hours {
+    display: inline-block;
+    margin-bottom: 2px;
+    width: 25%;
+    padding: 1px;
+    justify-content: center;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.li-hours > span {
+    white-space: pre-wrap;
+}
+
+/* Daily Dashboard */
+
+.daily-view {
+    display: inline;
+    white-space: nowrap;
+    padding: 0;
+    margin: 0;
+}
+
+.daily-ul {
+    max-width: 100vh;
+    overflow-x: auto;
+    max-height: 20vh;
+}
+
+.daily-li {
+    width: 25%;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 2px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Bottom Dashboard */
+
+.bottom-dashboard{
+    display: inline;
+    text-align: center;
+    float: left;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.bottom-dashboard > div {
+    display: inline-block;
+    width: 10vw;
+}

@@ -1,0 +1,62 @@
+﻿<link rel="stylesheet" href="../css/SklepGlownaCSSFile.css" />
+<script defer src="../js/SklepGlownaJSFile.js"></script>
+
+@model List<Item>
+@{
+    ViewData["Title"] = "Sklep";
+    var colorGroup = Model.GroupBy(x => x.Item_Color);
+    var genderGroup = Model.GroupBy(x => x.Item_Gender);
+    var categoryGroup = Model.GroupBy(x => x.Item_Category);
+}
+<div class="top-space"></div>
+<!--<div class="baner">
+    <img src="~/Images/baner.png"/>
+</div>-->
+<div class="container-box">
+    <div class="filters">
+        <h1>Filtry:</h1>
+
+        <input type="text" id="inputsearch" class="form-control" />
+        <br /> <button id="search" class="btn btn-primary">Wyszukaj</button><br /><br />
+
+        <span>Kategoria:</span>
+        <div>
+            <ul id="categories">
+                @foreach (var categories in categoryGroup)
+                {
+                    <li class="catli" value="@categories.First().Item_Category">@categories.First().Item_Category</li>
+                }
+            </ul>
+        </div>
+
+        <span>Cena:</span>
+        <p>Minimum:</p>
+        <input type="range" max="10000" min="1" value="1" id="min_slider" /><input type="number" id="min_number" max="10000" min="1" value="1" /><br />
+        <p>Maksimum:</p>
+        <input type="range" max="10000" min="1" value="10000" id="max_slider" /><input type="number" id="max_number" max="10000" min="1" value="10000" /><br /><br />
+        <button type="submit" id="filtrbtn" class="btn btn-primary"> Filtruj po cenie </button><br />
+
+        <span>Color:</span>
+        <div>
+            <ul class="colorul" id="colorul">
+                @foreach (var color in colorGroup)
+                {
+                    <li class="color" id="colorFilter" style="background-color: @color.First().Item_Color;"></li>
+                }
+            </ul>
+        </div><br />
+
+        <span>Płeć:</span>
+        <select id="genderSelect">
+            @foreach (var gender in genderGroup)
+            {
+                <option>@gender.First().Item_Gender</option>
+            }
+        </select><br /><br />
+        <button type="submit" id="resetbtn" class="btn btn-primary"> Reset </button>
+    </div>
+
+    <div class="items-box" id="items_box">
+        <partial name="_ItemsPartial" model="Model" />
+    </div>
+</div>

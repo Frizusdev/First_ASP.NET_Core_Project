@@ -1,0 +1,109 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: rgb(209, 227, 222);
+}
+
+.items-box {
+    width: 75%;
+    position: absolute;
+    left: 20%;
+}
+
+.top-space{
+    height: 59px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.container-box {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+.items a {
+    color: black;
+    text-decoration: none;
+}
+
+.baner {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.items {
+    width: 20%;
+    justify-content: center;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    line-height: 20%;
+    color: black;
+    margin-left: 4%;
+    margin-top: 2%;
+    white-space: initial;
+}
+
+.filters {
+    margin: 0;
+    border: 0;
+    width: 15%;
+    float: left;
+    display: inline-block;
+    padding: 2%;
+    vertical-align: top;
+    text-align: center;
+}
+
+.bluza {
+    height: 40%;
+    width: 40%;
+    margin-bottom: 3%;
+}
+
+.colorul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.color {
+    float: left;
+    list-style: none;
+    width: 35px;
+    margin: 3px;
+    height: 35px;
+    border-radius: 50%;
+    justify-content: space-around;
+    cursor: pointer;
+    float: left;
+}
+
+.catli {
+    display: flex;
+    cursor: pointer;
+}
+
+/* CSS Hover */
+
