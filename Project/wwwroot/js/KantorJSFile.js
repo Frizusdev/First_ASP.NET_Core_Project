@@ -1,4 +1,4 @@
-﻿var userLang = navigator.language || navigator.userLanguage;
+var userLang = navigator.language || navigator.userLanguage;
 userLang = userLang.slice(3);
 var value = document.getElementById("value");
 var from = document.getElementById("from");
@@ -25,7 +25,7 @@ window.addEventListener("load", (event) => {
 function data() {
     value.disabled = true;
     var myHeaders = new Headers();
-    myHeaders.append("apikey", "2LbI4Yl6QRhZ0udfdBEv9HC6pnv6fc0L");
+    myHeaders.append("apikey", "YOUR_APIKEY");
 
     var requestOptions = {
         method: 'GET',

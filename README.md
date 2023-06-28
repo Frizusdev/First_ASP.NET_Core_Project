@@ -2,7 +2,7 @@
  ASP .NET Core 7.0 apis/login/game
 
 
-What u need to do before running this app is import sql file to your mysql and change db connection line "DefaultConnection" in appsettings.json
+What u need to do before running this app is import sql file to your mysql and change db connection line "DefaultConnection" in appsettings.json, than in wwwroot/js/KantorJSFile.js find YOUR_APIKEY and paste here your apikey from acc on apilayer.com/fixer, last thing is in Controllers/PogodaController.cs find and change YOUR_APIKEY to your key from openweathermap.org. :)
 
 
 <p> Shop </p>

@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
@@ -22,7 +22,7 @@ namespace Project.Controllers
         {
             if (x != null && y != null)
             {
-                var appikey = "2e98c4854b6af7f91f625e1298974836";
+                var appikey = "YOUR_APIKEY";
                 var url = $"https://api.openweathermap.org/data/2.5/forecast?lat=" + x + "&lon=" + y + "&units=metric&lang=pl&appid=" + appikey + "";
                 var web = new WebClient();
                 var response = web.DownloadString(url);
@@ -35,7 +35,7 @@ namespace Project.Controllers
         [Route("~/Pogoda/Pogoda/city={city}")]
         public IActionResult Pogoda([FromRoute] string city)
         {
-            var appikey = "2e98c4854b6af7f91f625e1298974836";
+            var appikey = "YOUR_APIKEY";
             var url = $"http://api.openweathermap.org/data/2.5/weather?q="+city+ "&units=metric&lang=pl&cnt=1&APPID=" + appikey+"";
             var web = new WebClient();
             var response = web.DownloadString(url);
